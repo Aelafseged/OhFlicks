@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aelaf.ohflicks.MovieDetails">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgDetailErr"
+        android:background="@drawable/error404"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:id="@+id/imgdetail"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBarMovieDetail"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_margin="12dp"
+        />
+
+    <TextView
+        android:id="@+id/txtRelease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/imgdetail"
+        android:layout_margin="5dp"
+        android:text="Release Date:"
+        android:visibility="gone"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgdetail"
+        android:layout_margin="12dp"
+        android:layout_toRightOf="@+id/txtRelease"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMovieDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtReleaseDate"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:text="MovieDescription"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

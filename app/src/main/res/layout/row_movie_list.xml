@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgposter"
+        android:layout_below="@+id/txtTitle"
+        android:padding="8dp"
+        android:adjustViewBounds="true"
+
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressImg"
+        android:layout_below="@+id/txtTitle"
+        android:padding="8dp"
+        android:visibility="gone"
+android:layout_alignLeft="@+id/imgposter"
+        android:layout_alignRight="@id/imgposter"
+        />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:capitalize="sentences"
+        android:shadowColor="@color/colorAccent"
+        android:text="MovieTitle"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDescription"
+        android:padding="8dp"
+        android:text="Description of the movie goes here"
+        android:layout_toRightOf="@+id/imgposter"
+       android:layout_below="@+id/txtTitle"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>
