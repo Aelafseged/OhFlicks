@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 * [ ] Apply [Progress Bar] before loading recyclerview
 * [ ] Error Describing image on failed network
 * [ ] Apply seperate [progress Bar] views on loading of images
-* [ ] Apply **MVP** 
+* [ ] Apply [**MVP Architectural Pattern**] 
 
 ## Video Walkthrough
 
@@ -54,7 +54,7 @@ so i had to go with vertical scrolling for both Vertical and horizontal orientat
 
 ## License
 
-    Copyright [2017] [Aelafseged Tewodros]
+    Copyright [2017] [Aelafseged Tewodros Amdemikael]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
