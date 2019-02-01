@@ -4,6 +4,7 @@ import com.example.aelaf.ohflicks.network.NetworkAdapter;
 
 /**
  * Created by aelaf on 9/3/17.
+ *good work
  */
 
 public class MovieCollector implements NetworkAdapter {
